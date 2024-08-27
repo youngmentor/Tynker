@@ -1,0 +1,51 @@
+.ProductPagemain {
+  width: 100%;
+}
+.ProductPageWrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.ProductPageCard {
+  display: flex;
+  width: 180px;
+  height: 380px;
+  flex-direction: column;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+}
+.ProductPageImage {
+  width: 100%;
+  height: 200px;
+}
+.ProductPageTtiltePriceWrap {
+    width: 100%;
+    height: 150px;
+  }
+@media screen and (max-width: 650px) {
+  .ProductPageCard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .ProductPageImage {
+    width: 100%;
+    height: 150px;
+  }
+  .ProductPageTtiltePriceWrap {
+    width: 100%;
+  }
+  .ProcutPageBuyButton {
+    width: 100%;
+    height: 40px;
+  }
+}

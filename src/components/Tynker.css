@@ -1,0 +1,312 @@
+.TynkerBody{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+*{
+padding: none;
+margin: 0%;
+}
+.TynkerWrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.TynkerWrapHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    padding: none;
+    align-items: center;
+    background-color: rgb(107, 56, 190);
+}
+.TynkerHeaderD1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 27%;
+    height: 58px; 
+}
+.TynkerImage1{
+    width: 120px;
+    height: 35px;
+}
+.TynkerHeaderD2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 43%;
+    height: 60px;
+    gap: 20px;
+}
+.TynkerHeaderdd2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.TynkerHeaderD3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+    height: 60px;
+    gap: 30px;
+}
+.TynkerHeaderDd2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 60px;
+}
+.TynkerHeaderDiv2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 20px;
+    color: white;
+}
+.TynkerImage2{
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+.TynkerHeaderD3But{
+    display: flex;
+    background-color: rgb(107, 56, 190);
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.TynkerHeaderD3But2{
+    display: flex;
+    background-color: rgb(107, 56, 190);
+    color: white;
+    border: none;
+}
+.TynkerDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(234, 5, 18);
+}
+.TynkerDivd1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.TynkerDivd1But{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(156, 5, 0);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    height: 60px;
+    width: 55px;
+}
+.TynkerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 535px;
+    /* padding: 65px; */
+    gap: 35px;
+    background-color: rgb(107, 56, 190);
+}
+.TynkerContentBold{
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+   font-size: 53px;
+   color: white;
+}
+.TynkerContentRead{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+}
+.TynkerContentDivB{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+.TynkerContentBut{
+    display: flex;
+    padding: 17px;
+    /* width: 40px; */
+    height: 55px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(223, 68, 19);
+}
+.TynkerHeader2{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    gap: 30px;
+    margin-top: 70px;
+    align-items: center;
+}
+.TynkerHeader2divcons{
+    display: flex;
+    flex-direction: row;
+}
+.TynkerHeader2content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.TynkerDivWrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+    gap: 30px;
+    justify-content: center;
+}
+.TynkerDivWrapd1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color:  whitesmoke;
+}
+.TynkerDivWrapImg{
+   width: 280px;
+   height: 170px;
+   align-items: baseline;
+}
+  .TynkerDivWrapcons{ 
+    width: 250px;
+    text-align: baseline; 
+}
+.TynkerHeader2But{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 12px;
+    background-color: rgb(15, 99, 213);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.TynkerLogImg{
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+}
+.TynkerHeader2divcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .TynkerDiv{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .TynkerDivbold{
+        font-size: 20px;
+    }
+    .TynkerDivd1But{
+        width: 70px;
+        height: 70px;
+    }
+    .TynkerContent{
+        width: 100%;
+        height: 500px;
+    }
+    .TynkerContentBold{
+        width: 300px;
+        font-size: 30px;
+    }
+    .TynkerContentRead{
+        width: 300px;
+        font-size: 18px;
+    }
+    .TynkerHeader2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       } 
+       .TynkerHeader2bold{
+        width: 320px;
+        font-size: 25px;
+        text-align: center;
+       }
+       .TynkerHeader2divcons{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 150px;
+        font-size: 12px;
+       }
+       .TynkerHeader2content{
+        display: flex;
+        flex-direction: row;
+        width: 320;
+        height: 15px;
+       }
+       .TynkerDivWrap{
+        width: 300px;
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+       }
+       .TynkerWrapHeader{
+        width: 100%;
+        /* background-color: blue; */
+      }
+      .TynkerHeaderD2{
+        display: none;
+      }
+      .TynkerHeaderD3{
+        display: none;
+      }
+      .TynkerHeaderD1{
+        width: 100%;
+      }
+}

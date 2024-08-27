@@ -1,0 +1,178 @@
+.Empowerhearder1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 750px; */
+    background-color: whitesmoke;
+}
+.Empowerhearder2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    gap: none;
+}
+.EmpowerHeaderAdvance{
+    display: flex;
+    width: 100%;  
+    gap: 60px;
+    height: 500px;
+}
+.EmpowerHeaderAdvanceImg{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: end;
+    justify-content: center;
+}
+.EmpowerImage{
+    width: 530px;
+    height: 420px;
+}
+.EmpowerBody{
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Empowerheaderd1{
+    display: flex;
+    width: 100%;
+    gap: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.Empowerheaderd1bold{
+    width: 730px;
+    margin-top: 50px;
+    text-align: center;
+}
+.EmpowerBody img{
+    width: 60%;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+.EmpowerHeaderAdvanceDiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    margin-top: 80px;
+    height: 500px;
+}
+.EmpowerHeaderAdvanceDivd1{
+    display: flex;
+    flex-direction: row;
+}
+.EmpowerHeaderAdvanceDivbody{
+    display: flex;
+    flex-direction: column;
+}
+.EmpowerHeaderAdvanceP1{
+    display: flex;
+    flex-direction: row;
+    /* width: 220px; */
+    align-items: center;
+    justify-content: baseline;
+    gap: 5px;
+}
+.EmpowerHeaderAdvanceP2{
+    width: 480px;
+}
+.EmpowerHeaderAdvanceP3{
+    width: 400px;
+}
+.EmpowerHeaderAdvanceDivd1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.EmpowerHeaderAdvanceimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(15, 99, 213);
+}
+.Empowerhearder2h1{
+    display: flex;
+    width: 100%;
+    align-items: end;
+    justify-content: center;
+    height: 120px;
+    font-size: 18px;
+}
+.Empowerhearder3 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    /* background-color: greenyellow; */
+    overflow-x: scroll;
+}
+
+.Empowerhearder3Wrap {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    white-space: nowrap;
+    margin-bottom: 50px;
+}
+
+.Empowerhearder3d1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color: #fefefe;
+    flex-shrink: 0; 
+    text-wrap: wrap;
+    padding: 10px;
+    border-top: .25rem solid #8b58cf;
+    border-radius: 10px;
+    height: 230px;
+    gap: 30px;
+    box-shadow: 0 .1875rem .375rem hsla(0, 0%, 4%, .1);
+
+}
+.Empowerhearder3d1 h3{
+    width: 80%;
+}
+.Empowerhearder3d1 p{
+    width: 80%;
+}
+.Empowerhearder4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    background-color: linear-gradient(180deg,#ebfcff,#f4f9fa);
+}
+.Empowerhearder4d1{
+    width: 750px;
+    font-size: 18px;
+    height: 110px;
+    line-height: 28px;
+}
+.Empowerhearder4d2{
+    width: 770px;
+    font-size: 16px;
+    height: 130px;
+    line-height: 28px;
+}
+.strong{
+    color: blue;
+}
