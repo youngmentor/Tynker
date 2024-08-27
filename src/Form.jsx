@@ -88,7 +88,7 @@ const Form = () => {
                         // onChange={handleChange}
                     />
                 </span>
-                <button onClick={handleSubmit} className='FormButton'>Create account</button>
+                <button onClick={handleSubmit} className='FormButton'>Create an account</button>
             </form>
         </div>
     )
